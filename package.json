@@ -4,10 +4,12 @@
   "scripts": {
     "clean": "rm -rf output",
     "build": "spago build",
-    "test": "spago test"
+    "test": "spago test",
+    "tidy-check": "purs-tidy check src test"
   },
   "devDependencies": {
     "purescript": "^0.15.15",
+    "purs-tidy": "^0.11.0",
     "spago": "^0.21.0"
   }
 }
