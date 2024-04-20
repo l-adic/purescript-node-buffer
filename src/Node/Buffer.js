@@ -1,4 +1,4 @@
-import { Buffer, transcode } from "node:buffer";
+import { Buffer, transcode } from "buffer";
 
 export const allocUnsafeImpl = (size) => Buffer.allocUnsafe(size);
 export const allocUnsafeSlowImpl = (size) => Buffer.allocUnsafeSlow(size);

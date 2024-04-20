@@ -1,4 +1,4 @@
-import buffer from "node:buffer";
+import buffer from "buffer";
 
 export const inspectMaxBytes = () => buffer.INSPECT_MAX_LENGTH;
 export const maxLength = buffer.constants.MAX_LENGTH;
